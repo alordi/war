@@ -163,7 +163,7 @@ public class War {
             hand2.addAll(pile);
             msg = "Player 2 wins the war!";
             //if player 1 has 0 cards, the game is over
-            if (hand2.size() == 0) {
+            if (hand1.size() == 0) {
                 gameOver(false, true);
                 return 3;
             }

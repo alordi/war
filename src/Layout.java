@@ -67,11 +67,11 @@ public class Layout extends JFrame{
         //title and description
         title.setText("Austin's War Game");
         title.setBounds(250,100,400,100);
-        title.setFont(new Font("Agency FB",0,60));
+        title.setFont(new Font("Arial",0,44));
         title.setHorizontalAlignment(SwingConstants.CENTER);
         description.setText("Would You Like To Play?");
         description.setBounds(150,250,600,100);
-        description.setFont(new Font("Agency FB",0,30));
+        description.setFont(new Font("Arial",0,24));
         description.setHorizontalAlignment(SwingConstants.CENTER);
         panel.add(title); 
         panel.add(description);
@@ -177,25 +177,25 @@ public class Layout extends JFrame{
         //set up labels indicating scores(# of cards each player has)
         player2.setText("Player 2:");
         player2.setBounds(100,100,100,50);
-        player2.setFont(new Font("Agency FB", 0, 32));
+        player2.setFont(new Font("Arial", 0, 22));
         player2.setForeground(Color.white);
         player2.setHorizontalAlignment(SwingConstants.CENTER);
         
         player1.setText("Player 1 (You):");
         player1.setBounds(80,280,150,50);
-        player1.setFont(new Font("Agency FB", 0, 32));
+        player1.setFont(new Font("Arial", 0, 22));
         player1.setForeground(Color.white);
         player1.setHorizontalAlignment(SwingConstants.CENTER);
         
         player2score.setText("26");
         player2score.setBounds(100,150,100,50);
-        player2score.setFont(new Font("Agency FB", 0, 32));
+        player2score.setFont(new Font("Arial", 0, 22));
         player2score.setForeground(Color.white);
         player2score.setHorizontalAlignment(SwingConstants.CENTER);
         
         player1score.setText("26");
         player1score.setBounds(100,330,100,50);
-        player1score.setFont(new Font("Agency FB", 0, 32));
+        player1score.setFont(new Font("Arial", 0, 22));
         player1score.setForeground(Color.white);
         player1score.setHorizontalAlignment(SwingConstants.CENTER);
         
@@ -219,7 +219,7 @@ public class Layout extends JFrame{
         //indicator telling what happened on the previous turn
         indicator.setText("");
         indicator.setBounds(610,240,200,60);
-        indicator.setFont(new Font("Agency FB", 0, 24));
+        indicator.setFont(new Font("Arial", 0, 18));
         indicator.setForeground(Color.white);
         indicator.setHorizontalAlignment(SwingConstants.CENTER);
     }
