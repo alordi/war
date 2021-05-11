@@ -10,7 +10,7 @@ public class Card {
     private String url;
     
     /**
-     * Constructor
+     * Card Constructor
      */
     public Card(String value, String url) {
         this.value = this.findValue(value);
