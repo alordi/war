@@ -3,7 +3,7 @@
 
 - Project compiled in Netbeans 12.3
 
-- Executable Jar file located in releases
+- Executable Jar file located in Releases
 
 - To Run: need Java 11+
 
