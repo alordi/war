@@ -7,7 +7,7 @@ Executable Jar file located in releases
 
 To Run: need Java 11+
 
-To Run from command line: java -jar "war.jar" 
+To Run from command line: ```java -jar "war.jar" ```
 
-Cards retreived from: http://deckofcardsapi.com/
+Cards retrieved from: http://deckofcardsapi.com/
 
