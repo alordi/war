@@ -49,7 +49,7 @@ public class DeckGetter {
     }
     
     /**
-     * Helper function for talking sending requests to API
+     * Helper function for sending requests to API
      * @param url: the URL to send a request to
      * @return the JSON response from the API, throws exception if no response
      */

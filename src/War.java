@@ -179,9 +179,7 @@ public class War {
     }
     
     /**
-     * Represents a war event, each player draws 3 face down cards from their hand 
-     * and places them in the pile, the players then draw another card whichever highest of
-     * these cards wins the whole pile
+     * Called when a game ends, updates the title and description accordingly
      * @param win: boolean representing who won,
      *              true->player 1 won
      *              false->player 2 won
