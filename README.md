@@ -1,9 +1,11 @@
 # War Card Game
 ### By Austin Lordi
 
-Jar file located in releases
+Project compiled in Netbeans 12.3
 
-To Run: need Java 11
+Executable Jar file located in releases
+
+To Run: need Java 11+
 
 To Run from command line: java -jar "war.jar" 
 
